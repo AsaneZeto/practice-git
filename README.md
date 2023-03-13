@@ -40,5 +40,5 @@ python train_bcic.py --subj "S02" --alpha 0.95 --epoch 5 --lr 0.0025 --save 1 --
 #### isctest
 * Python version of implementation of IC test algorithm [1]
 ## Dataset
-
+* The full dataset of BCI Challenge @ Ner2015 dataset is available on [Kaggle](https://www.kaggle.com/c/inria-bci-challenge).
 ## Reference

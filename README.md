@@ -1,8 +1,23 @@
 # OCINet
+This repository is the official implementation of "OICNet: Online Independent Component Analysis Network for EEG Source Separation".
 ## Usage
-* 
+* Here is an example command
 ```
+python train_bcic.py --subj "S02" --alpha 0.95 --epoch 5 --lr 0.0025 --save 1 --save_path ./result 
 ```
+### optional arguments:
+  --lr LR               Set Learning rate for Adam
+  -a, --alpha           Set the coefficient of negentropy
+  -e, --epoch           Set number of epoch for fine-tuning
+  --bs                  Set block size for whitening
+  -s SAVE, --save       Save OICNet
+  -p, --save_path       Specify the path to save model
+  --subj                Specify the subject of training data
+  --init                Path of initial weights file for OICNet
+  --filename            Postfix for file name
+  --verbose             Print system message
+  --record              Record the model after each fine-tuning
+  
 ## Repository Structure and Descriptions
 * The directory structure of this repository is listed as below:
 ```

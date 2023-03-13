@@ -36,9 +36,9 @@ python train_bcic.py --subj "S02" --alpha 0.95 --epoch 5 --lr 0.0025 --save 1 --
 * `model.py` : Implementation of OICNet class.
 * `function.py` : Implementations of numerical operation.
 * `util.py` : Tools for analysis such as plotting, performance evaluation and component match, etc.
-* `train_bcic.py` : Sample Code to run OICNet on BCI Challenge @ Ner2015 dataset
+* `train_bcic.py` : Sample Code to run OICNet on BCI Challenge @ Ner 2015 dataset.
 #### isctest
 * Python version of implementation of IC test algorithm [1]
 ## Dataset
-* The full dataset of BCI Challenge @ Ner2015 dataset is available on [Kaggle](https://www.kaggle.com/c/inria-bci-challenge).
+* The full dataset of BCI Challenge @ Ner 2015 dataset is available on [Kaggle](https://www.kaggle.com/c/inria-bci-challenge).
 ## Reference

@@ -17,14 +17,13 @@
 ├── train_yoto.py
 └── util.py
 ```
-* 
-## Descriptions
-### Root
+### Descriptions
+#### Root
 * `model.py` : Implementation of OICNet class.
 * `function.py` : Implementations of numerical operation.
 * `util.py` : Tools for analysis such as plotting, performance evaluation and component match, etc.
 * `train_bcic.py` : Sample Code to run OICNet on BCI Challenge @ Ner2015 dataset
-### isctest
+#### isctest
 * Python version of implementation of IC test algorithm [1]
 ## Dataset
 

@@ -17,7 +17,6 @@ python train_bcic.py --subj "S02" --alpha 0.95 --epoch 5 --lr 0.0025 --save 1 --
 --filename            Postfix for file name
 --verbose             Print system message
 --record              Record the model after each fine-tuning
-  
 ## Repository Structure and Descriptions
 * The directory structure of this repository is listed as below:
 ```

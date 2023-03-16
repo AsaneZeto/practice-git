@@ -1,4 +1,4 @@
-# OCINet
+# OICNet
 This repository is the official implementation of "OICNet: Online Independent Component Analysis Network for EEG Source Separation".
 ## Usage
 * Here is an example command

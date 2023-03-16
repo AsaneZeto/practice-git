@@ -1,5 +1,11 @@
 # OICNet
 This repository is the official implementation of "OICNet: Online Independent Component Analysis Network for EEG Source Separation".
+## Requirements
+To install requirements:
+```
+conda env create -f OICNet.yaml
+conda activate OICNet
+```
 ## Usage
 * Here is an example command
 ```
